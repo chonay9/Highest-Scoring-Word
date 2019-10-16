@@ -42,3 +42,14 @@ for(var i=0;i<x.length;i++){
 
 return str;
 }
+
+
+/**********TDD CODE*************
+
+Test.describe("Example tests",_=>{
+Test.assertEquals(high('man i need a taxi up to ubud'), 'taxi');
+Test.assertEquals(high('what time are we climbing up the volcano'), 'volcano'); 
+Test.assertEquals(high('take me to semynak'), 'semynak');  
+});
+
+********************************/
